@@ -1,0 +1,11 @@
+import java.util.Random;
+
+class Main {
+  public static void main(String[] args) {
+    Random rand = new Random();
+    int k = 2 * rand.nextInt(449) + 101;
+    System.out.println("생성한 난수는 " + k + "입니다.");
+    System.out.println("10배한 값은 " + 10*k + "입니다.");
+    System.out.println("마지막 자릿수는 " + k%10+"입니다.");
+  }
+}
